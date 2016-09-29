@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7AD0BA1D9D6962000C036A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AD0B91D9D6962000C036A /* AppDelegate.swift */; };
+		FB7AD0BD1D9D6962000C036A /* timbre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB7AD0BB1D9D6962000C036A /* timbre.xcdatamodeld */; };
+		FB7AD0BF1D9D6962000C036A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AD0BE1D9D6962000C036A /* ViewController.swift */; };
+		FB7AD0C21D9D6962000C036A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7AD0C01D9D6962000C036A /* Main.storyboard */; };
+		FB7AD0C41D9D6962000C036A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7AD0C31D9D6962000C036A /* Images.xcassets */; };
+		FB7AD0C71D9D6962000C036A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7AD0C51D9D6962000C036A /* LaunchScreen.xib */; };
+		FB7AD0D31D9D6962000C036A /* timbreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AD0D21D9D6962000C036A /* timbreTests.swift */; };
+		FBA54D4F1D9D6F8400FB2BA4 /* recursos in Resources */ = {isa = PBXBuildFile; fileRef = FBA54D4E1D9D6F8400FB2BA4 /* recursos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7AD0CD1D9D6962000C036A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7AD0AC1D9D6962000C036A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7AD0B31D9D6962000C036A;
+			remoteInfo = timbre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7AD0B41D9D6962000C036A /* timbre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timbre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7AD0B81D9D6962000C036A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7AD0B91D9D6962000C036A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB7AD0BC1D9D6962000C036A /* timbre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = timbre.xcdatamodel; sourceTree = "<group>"; };
+		FB7AD0BE1D9D6962000C036A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB7AD0C11D9D6962000C036A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7AD0C31D9D6962000C036A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB7AD0C61D9D6962000C036A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB7AD0CC1D9D6962000C036A /* timbreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timbreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7AD0D11D9D6962000C036A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7AD0D21D9D6962000C036A /* timbreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timbreTests.swift; sourceTree = "<group>"; };
+		FBA54D4E1D9D6F8400FB2BA4 /* recursos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = recursos; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7AD0B11D9D6962000C036A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AD0C91D9D6962000C036A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7AD0AB1D9D6962000C036A = {
+			isa = PBXGroup;
+			children = (
+				FBA54D4E1D9D6F8400FB2BA4 /* recursos */,
+				FB7AD0B61D9D6962000C036A /* timbre */,
+				FB7AD0CF1D9D6962000C036A /* timbreTests */,
+				FB7AD0B51D9D6962000C036A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7AD0B51D9D6962000C036A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AD0B41D9D6962000C036A /* timbre.app */,
+				FB7AD0CC1D9D6962000C036A /* timbreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7AD0B61D9D6962000C036A /* timbre */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AD0B91D9D6962000C036A /* AppDelegate.swift */,
+				FB7AD0BE1D9D6962000C036A /* ViewController.swift */,
+				FB7AD0C01D9D6962000C036A /* Main.storyboard */,
+				FB7AD0C31D9D6962000C036A /* Images.xcassets */,
+				FB7AD0C51D9D6962000C036A /* LaunchScreen.xib */,
+				FB7AD0BB1D9D6962000C036A /* timbre.xcdatamodeld */,
+				FB7AD0B71D9D6962000C036A /* Supporting Files */,
+			);
+			path = timbre;
+			sourceTree = "<group>";
+		};
+		FB7AD0B71D9D6962000C036A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AD0B81D9D6962000C036A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB7AD0CF1D9D6962000C036A /* timbreTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AD0D21D9D6962000C036A /* timbreTests.swift */,
+				FB7AD0D01D9D6962000C036A /* Supporting Files */,
+			);
+			path = timbreTests;
+			sourceTree = "<group>";
+		};
+		FB7AD0D01D9D6962000C036A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AD0D11D9D6962000C036A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7AD0B31D9D6962000C036A /* timbre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7AD0D61D9D6962000C036A /* Build configuration list for PBXNativeTarget "timbre" */;
+			buildPhases = (
+				FB7AD0B01D9D6962000C036A /* Sources */,
+				FB7AD0B11D9D6962000C036A /* Frameworks */,
+				FB7AD0B21D9D6962000C036A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timbre;
+			productName = timbre;
+			productReference = FB7AD0B41D9D6962000C036A /* timbre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7AD0CB1D9D6962000C036A /* timbreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7AD0D91D9D6962000C036A /* Build configuration list for PBXNativeTarget "timbreTests" */;
+			buildPhases = (
+				FB7AD0C81D9D6962000C036A /* Sources */,
+				FB7AD0C91D9D6962000C036A /* Frameworks */,
+				FB7AD0CA1D9D6962000C036A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7AD0CE1D9D6962000C036A /* PBXTargetDependency */,
+			);
+			name = timbreTests;
+			productName = timbreTests;
+			productReference = FB7AD0CC1D9D6962000C036A /* timbreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7AD0AC1D9D6962000C036A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Eduardo Marcelo";
+				TargetAttributes = {
+					FB7AD0B31D9D6962000C036A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FB7AD0CB1D9D6962000C036A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FB7AD0B31D9D6962000C036A;
+					};
+				};
+			};
+			buildConfigurationList = FB7AD0AF1D9D6962000C036A /* Build configuration list for PBXProject "timbre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7AD0AB1D9D6962000C036A;
+			productRefGroup = FB7AD0B51D9D6962000C036A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7AD0B31D9D6962000C036A /* timbre */,
+				FB7AD0CB1D9D6962000C036A /* timbreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7AD0B21D9D6962000C036A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AD0C21D9D6962000C036A /* Main.storyboard in Resources */,
+				FB7AD0C71D9D6962000C036A /* LaunchScreen.xib in Resources */,
+				FBA54D4F1D9D6F8400FB2BA4 /* recursos in Resources */,
+				FB7AD0C41D9D6962000C036A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AD0CA1D9D6962000C036A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7AD0B01D9D6962000C036A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AD0BF1D9D6962000C036A /* ViewController.swift in Sources */,
+				FB7AD0BD1D9D6962000C036A /* timbre.xcdatamodeld in Sources */,
+				FB7AD0BA1D9D6962000C036A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7AD0C81D9D6962000C036A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7AD0D31D9D6962000C036A /* timbreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7AD0CE1D9D6962000C036A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7AD0B31D9D6962000C036A /* timbre */;
+			targetProxy = FB7AD0CD1D9D6962000C036A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7AD0C01D9D6962000C036A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7AD0C11D9D6962000C036A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7AD0C51D9D6962000C036A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7AD0C61D9D6962000C036A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7AD0D41D9D6962000C036A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB7AD0D51D9D6962000C036A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7AD0D71D9D6962000C036A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = timbre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB7AD0D81D9D6962000C036A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = timbre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB7AD0DA1D9D6962000C036A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = timbreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timbre.app/timbre";
+			};
+			name = Debug;
+		};
+		FB7AD0DB1D9D6962000C036A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = timbreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timbre.app/timbre";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7AD0AF1D9D6962000C036A /* Build configuration list for PBXProject "timbre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AD0D41D9D6962000C036A /* Debug */,
+				FB7AD0D51D9D6962000C036A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7AD0D61D9D6962000C036A /* Build configuration list for PBXNativeTarget "timbre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AD0D71D9D6962000C036A /* Debug */,
+				FB7AD0D81D9D6962000C036A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7AD0D91D9D6962000C036A /* Build configuration list for PBXNativeTarget "timbreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7AD0DA1D9D6962000C036A /* Debug */,
+				FB7AD0DB1D9D6962000C036A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB7AD0BB1D9D6962000C036A /* timbre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB7AD0BC1D9D6962000C036A /* timbre.xcdatamodel */,
+			);
+			currentVersion = FB7AD0BC1D9D6962000C036A /* timbre.xcdatamodel */;
+			path = timbre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB7AD0AC1D9D6962000C036A /* Project object */;
+}
